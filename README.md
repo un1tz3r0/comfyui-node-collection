@@ -1,19 +1,12 @@
 # comfyui-node-collection
-### A large collection of comfyui custom nodes
 
-*Disclaimer*: I woke up one day and these were just sitting in a folder I don't remember creating in my home directory, `.tmp/default`. In total there are 13GB of custom nodes for ComfyUI, many of which I have never seen online and have no clue where to find them. If any authors wish to have their nodes removed, feel free to open a PR and I will respond promptly. **I DO NOT WARRANT THE FITNESS OF THIS SOFTWARE FOR ANYTHING. YOU SHOULD NOT USE IT WITHOUT PROPER PRECAUTIONS SUCH AS A LOCKED DOWN ENVIRONMENT/CONTAINER/VM/SECURITY CONTEXT/THROWAWAY MACHINE/FAKE IDENTITY/SCAPEGOAT. THIS SOFTWARE MAY BREAK COMFYUI (or at least trying to load all 800+ nodes certainly will). Please create responsibly and always remember that the world is a scary place about which you know terrifyingly little, and are probably overconfident of your ability to anticipate.
+This repository contains a very large collection of comfyui custom nodes, ~13GB, over 900 items in the repository root.
 
-That being said, enjoy.
+Don't even try to load all of these at once, I did and 20 minutes later the web interface still hadn't loaded.
 
-If someone wants to go to the trouble of auditing these one by one and sorting out which are safe and where they all came from, be my guest. I do not have the time.
+**Disclaimer**: Use these at your own risk. There may well be some malicious code hiding somewhere in there, 13GB is alot of python code and I do not have time to personally comb through it all. Precautions and safety measures (sandboxing, venvs, security contexts, chroots, virtual machines) are strongly reccomended when using these or any other executable code from the internets.
 
-Once again, I make no claims as to the fitness of this software for anything and I'm somewhat sus of its origin. But I believe strongly in open source, and hopefully this is of use to someone. Please feel free to reach out to me if you have questions or corrections. Thanks. - V.
-
-## Contents
-
-Here is a listing of custom-nodes contained within. These appeared around early July, 2024 so versions are either current as of then or probably some are earlier:
-
-
+Here is a listing... enjoy.
 
  - 0_FutureWarningIgnore.py
  - A8R8_ComfyUI_nodes
