@@ -1,5 +1,7 @@
-# comfyui-node-collection
+# ComfyUI Node Collection
+#### 900+ custom-nodes add-ons for ComfyUI
 
+<!--
 This repository contains a very large collection of comfyui custom nodes, ~13GB, over 900 items in the repository root.
 
 Don't even try to load all of these at once... I did, spent 3+ hours fixing missing dependencies and ripping custom nodes out when that didn't clear an error, and after a while I got it to stop crashing out, but even after a solid hour it was still not even done starting up, so I'd say these are probably more useful when selectively enabled.
@@ -7,6 +9,13 @@ Don't even try to load all of these at once... I did, spent 3+ hours fixing miss
 **Disclaimer**: Use these at your own risk. There may well be some malicious code hiding somewhere in there, 13GB is alot of python code and I do not have time to personally comb through it all. Precautions and safety measures (sandboxing, venvs, security contexts, chroots, virtual machines) are strongly reccomended when using these or any other executable code from the internets.
 
 Here is a listing... enjoy.
+-->
+
+This repo is a gold mine for ComfyUI users. It contains a ton of custom nodes, and I mean a ton (~13GB, before the first-run setup downloads and dependency installs). I think there’s over 900 items here! So many it would take forever to load them all at once, and I don’t think I’d ever want to. It’s better to just pick and choose the ones you need for a particular project. 
+
+A word of warning, though: I have no idea what’s actually in these files, and there are so many of them that I can’t imagine anyone has gone through all of them. You never know what you’re going to get when you’re downloading code from the internet, so be careful.
+
+Here's what's in the custom-nodes subdirectory currently:
 
  - 0_FutureWarningIgnore.py
  - A8R8_ComfyUI_nodes
