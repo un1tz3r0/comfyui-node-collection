@@ -2,7 +2,7 @@
 
 This repository contains a very large collection of comfyui custom nodes, ~13GB, over 900 items in the repository root.
 
-Don't even try to load all of these at once, I did and 20 minutes later the web interface still hadn't loaded.
+Don't even try to load all of these at once... I did, spent 3+ hours fixing missing dependencies and ripping custom nodes out when that didn't clear an error, and after a while I got it to stop crashing out, but even after a solid hour it was still not even done starting up, so I'd say these are probably more useful when selectively enabled.
 
 **Disclaimer**: Use these at your own risk. There may well be some malicious code hiding somewhere in there, 13GB is alot of python code and I do not have time to personally comb through it all. Precautions and safety measures (sandboxing, venvs, security contexts, chroots, virtual machines) are strongly reccomended when using these or any other executable code from the internets.
 
